@@ -60,4 +60,5 @@ sess.run(init) # reset values to incorrect defaults.
 for i in range(1000):
   sess.run(train, {x:[1,2,3,4], y:[0,-1,-2,-3]})
 
+# Gives the optimized result
 print(sess.run([W, b]))
